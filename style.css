@@ -20,8 +20,9 @@ body{
 
 .a1:hover {
     text-decoration: none;
-    color: rgb(190, 190, 190);
+    color: white;
     font-weight: 500;
+    text-shadow: 2px 2px 2px rgb(59, 59, 59);
     
 }
 
