@@ -1,0 +1,92 @@
+body{
+    background: url(header.png) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.ul1 {
+    list-style: none;
+}
+
+.a1 {
+    display: grid;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 0px;
+    object-position: center;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.a1:hover {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    font-weight: 500;
+    
+}
+
+.line, .line2 {
+    max-width: 750px;
+    background-color: white;
+    border-width: 1px;
+    opacity: 50%;
+}
+
+h1 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.anjan, .thankyou {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px rgb(59, 59, 59);
+}
+
+.web {
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px rgb(59, 59, 59);
+    padding-top: 10px;
+}
+
+.works{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 50px;
+    padding-left: 110px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+    margin: 3px;
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px rgba(63, 63, 63, 0.39);
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: none;   
+}
+
+.thankyou {
+    align-content: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 25px;
+    padding-left: 110px;
+}
+
